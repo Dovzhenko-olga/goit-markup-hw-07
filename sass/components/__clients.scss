@@ -1,0 +1,32 @@
+/* clients */
+.clients{
+    display: flex;
+    
+    .item:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+.clients-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    color: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    transition: color 250ms $timing-function, border-color 250ms $timing-function;
+
+    &:hover, &:focus {
+        color: $hover-color;
+        border-color: $hover-color;
+    }
+}
+.icon-clients {
+    fill: currentColor;
+}
+.partners {
+    padding-top: 94px;
+    padding-bottom: 94px;    
+}

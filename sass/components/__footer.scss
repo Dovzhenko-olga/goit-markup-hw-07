@@ -1,0 +1,120 @@
+/* footer */
+
+.footer {
+    background-color: $footer-back-color;
+
+    .conteiner {
+        display: flex;    
+        padding-top: 60px;
+        padding-bottom: 60px;
+        align-items: baseline;
+    }
+    .logo {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+}
+
+.accent-foot, .map {
+    color: $primary-white-color;    
+}
+.map {
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.contacts {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.contact-us {
+    margin-top: 9px;
+}
+ 
+/* subscribe */
+.subscribe {
+    margin-left: 70px;
+
+    .link-social{
+        background-color: rgba(255, 255, 255, 0.1);
+        color: $primary-white-color;
+    }
+}
+.join {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: $primary-white-color;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+/* e-mail form */
+.mail-form {
+    margin-left: auto;
+}
+.mail {
+    display: flex;
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    margin-right: 12px;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: $footer-back-color;
+
+    &::placeholder {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+.mail-btn {
+    @extend %global-btn;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);    
+    
+    &:hover {
+        cursor: pointer;
+    }
+}
+.send {
+    margin-left: 10px;
+}
+.mail-enter {
+    display: flex;
+    align-items: center;
+}
