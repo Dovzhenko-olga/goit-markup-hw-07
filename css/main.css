@@ -24,7 +24,9 @@ body {
   margin: 0;
   background-color: #ffffff;
   color: #757575;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
   letter-spacing: 0.03em;
 }
 
@@ -59,7 +61,7 @@ body {
 
 .logo {
   color: #2196F3;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -102,7 +104,6 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  font-size: 14px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -125,7 +126,6 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  font-size: 14px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -197,7 +197,6 @@ body {
   font-weight: 700;
   line-height: 1.67;
   text-align: center;
-  letter-spacing: 0.03em;
   font-size: 36px;
 }
 
@@ -207,10 +206,7 @@ body {
 
 .features-list {
   display: flex;
-  font-weight: 400;
   line-height: 1.71;
-  letter-spacing: 0.03em;
-  font-size: 14px;
 }
 
 .features-list .title {
@@ -219,9 +215,7 @@ body {
   color: #212121;
   font-weight: 700;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  font-size: 14px;
 }
 
 .features-list .item {
@@ -272,8 +266,7 @@ li p {
   align-items: center;
   width: 370px;
   height: 70px;
-  font-weight: bold;
-  font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: #ffffff;
@@ -322,16 +315,13 @@ li p {
   color: #212121;
   font-weight: 500;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   font-size: 16px;
 }
 
 .proffeshion {
   margin-bottom: 16px;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .social-links {
@@ -421,20 +411,14 @@ li p {
 }
 
 .map {
-  font-weight: 400;
-  font-size: 14px;
   font-style: normal;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .contacts {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
-  font-size: 14px;
   font-style: normal;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .contact-us {
@@ -456,12 +440,9 @@ li p {
   margin-top: 0;
   margin-bottom: 20px;
   color: #ffffff;
-  font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -482,23 +463,17 @@ li p {
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.25;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: #2F303A;
 }
 
 .mail::placeholder {
-  font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.25;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -506,9 +481,8 @@ li p {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -601,9 +575,9 @@ li p {
 }
 
 .modal-title {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
@@ -614,9 +588,8 @@ li p {
 
 .imput-title {
   display: block;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: normal;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -657,9 +630,9 @@ li p {
 }
 
 .comment::placeholder {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -678,12 +651,8 @@ li p {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
-  font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -733,9 +702,9 @@ li p {
 .modal-button {
   margin-right: auto;
   margin-left: auto;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -858,9 +827,7 @@ li p {
 
 .work-content p {
   color: #757575;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
 }
 /*# sourceMappingURL=main.css.map */

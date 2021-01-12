@@ -27,7 +27,7 @@
     @extend %global-btn;
     padding: 10px 31px;
     font-family: inherit;
-    font-weight: 700;
+    font-weight: $font-weight-bold;
 
     transition: background-color 250ms $timing-function;
     
